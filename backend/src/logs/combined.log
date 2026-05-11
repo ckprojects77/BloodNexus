@@ -1,0 +1,81 @@
+2026-05-09 11:35:09 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 11:44:46 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-05-09 11:48:23 [error]: MongoDB connection failed: bad auth : authentication failed
+2026-05-09 11:48:53 [info]: MongoDB connected: ac-5atamyo-shard-00-01.ajsvj1y.mongodb.net
+2026-05-09 11:48:53 [info]: Socket.IO initialized
+2026-05-09 11:48:53 [info]: 
+╔══════════════════════════════════════════════╗
+║   🩸 BloodLink Backend API                   ║
+║   Port     : 5000                             ║
+║   Env      : development                   ║
+║   DB       : Connected                       ║
+║   Sockets  : Active                          ║
+╚══════════════════════════════════════════════╝
+    
+2026-05-09 11:51:53 [error]: Error: Invalid email or password
+    at Module.loginUser (file:///C:/Users/chait/Desktop/blood-ambulance-system/blood-ambulance-backend/src/services/authService.js:33:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async file:///C:/Users/chait/Desktop/blood-ambulance-system/blood-ambulance-backend/src/controllers/auth.controller.js:24:18
+2026-05-09 11:51:53 [info]: ::1 - - [09/May/2026:06:21:53 +0000] "POST /api/auth/login HTTP/1.1" 401 454 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:52:06 [error]: Error: Invalid email or password
+    at Module.loginUser (file:///C:/Users/chait/Desktop/blood-ambulance-system/blood-ambulance-backend/src/services/authService.js:33:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async file:///C:/Users/chait/Desktop/blood-ambulance-system/blood-ambulance-backend/src/controllers/auth.controller.js:24:18
+2026-05-09 11:52:06 [info]: ::1 - - [09/May/2026:06:22:06 +0000] "POST /api/auth/login HTTP/1.1" 401 454 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:52:27 [error]: Error: Invalid email or password
+    at Module.loginUser (file:///C:/Users/chait/Desktop/blood-ambulance-system/blood-ambulance-backend/src/services/authService.js:33:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async file:///C:/Users/chait/Desktop/blood-ambulance-system/blood-ambulance-backend/src/controllers/auth.controller.js:24:18
+2026-05-09 11:52:27 [info]: ::1 - - [09/May/2026:06:22:27 +0000] "POST /api/auth/login HTTP/1.1" 401 454 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:52:39 [info]: ::1 - - [09/May/2026:06:22:39 +0000] "POST /api/auth/register HTTP/1.1" 422 162 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:52:49 [info]: ::1 - - [09/May/2026:06:22:49 +0000] "POST /api/auth/register HTTP/1.1" 422 111 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:52:51 [info]: ::1 - - [09/May/2026:06:22:51 +0000] "POST /api/auth/register HTTP/1.1" 422 111 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:52:52 [info]: ::1 - - [09/May/2026:06:22:52 +0000] "POST /api/auth/register HTTP/1.1" 422 111 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:55:20 [error]: Error: Invalid email or password
+    at Module.loginUser (file:///C:/Users/chait/Desktop/blood-ambulance-system/blood-ambulance-backend/src/services/authService.js:33:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async file:///C:/Users/chait/Desktop/blood-ambulance-system/blood-ambulance-backend/src/controllers/auth.controller.js:24:18
+2026-05-09 11:55:20 [info]: ::1 - - [09/May/2026:06:25:20 +0000] "POST /api/auth/login HTTP/1.1" 401 454 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:55:49 [info]: ::1 - - [09/May/2026:06:25:49 +0000] "POST /api/auth/register HTTP/1.1" 201 921 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:55:52 [error]: Email send failed: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-83965a3e3ecsm14538950b3a.19 - gsmtp
+2026-05-09 11:55:52 [warn]: Welcome email failed: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-83965a3e3ecsm14538950b3a.19 - gsmtp
+2026-05-09 11:55:55 [error]: Error: Email already registered
+    at Module.registerUser (file:///C:/Users/chait/Desktop/blood-ambulance-system/blood-ambulance-backend/src/services/authService.js:10:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async file:///C:/Users/chait/Desktop/blood-ambulance-system/blood-ambulance-backend/src/controllers/auth.controller.js:14:18
+2026-05-09 11:55:55 [info]: ::1 - - [09/May/2026:06:25:55 +0000] "POST /api/auth/register HTTP/1.1" 409 455 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:55:58 [info]: ::1 - - [09/May/2026:06:25:58 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:01 [info]: ::1 - - [09/May/2026:06:26:01 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:02 [info]: ::1 - - [09/May/2026:06:26:02 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:02 [info]: ::1 - - [09/May/2026:06:26:02 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:03 [info]: ::1 - - [09/May/2026:06:26:03 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:03 [info]: ::1 - - [09/May/2026:06:26:03 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:03 [info]: ::1 - - [09/May/2026:06:26:03 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:03 [info]: ::1 - - [09/May/2026:06:26:03 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:03 [info]: ::1 - - [09/May/2026:06:26:03 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:04 [info]: ::1 - - [09/May/2026:06:26:04 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:04 [info]: ::1 - - [09/May/2026:06:26:04 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:04 [info]: ::1 - - [09/May/2026:06:26:04 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:04 [info]: ::1 - - [09/May/2026:06:26:04 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:04 [info]: ::1 - - [09/May/2026:06:26:04 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:05 [info]: ::1 - - [09/May/2026:06:26:05 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:05 [info]: ::1 - - [09/May/2026:06:26:05 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:05 [info]: ::1 - - [09/May/2026:06:26:05 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:05 [info]: ::1 - - [09/May/2026:06:26:05 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:56:12 [info]: ::1 - - [09/May/2026:06:26:12 +0000] "POST /api/auth/register HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:57:52 [info]: ::1 - - [09/May/2026:06:27:52 +0000] "POST /api/ai/chat HTTP/1.1" 401 43 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 11:58:03 [info]: ::1 - - [09/May/2026:06:28:03 +0000] "POST /api/auth/login HTTP/1.1" 429 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-09 17:16:16 [info]: MongoDB connected: ac-5atamyo-shard-00-02.ajsvj1y.mongodb.net
+2026-05-09 17:16:16 [info]: Socket.IO initialized
+2026-05-09 17:16:16 [info]: 
+╔══════════════════════════════════════════════╗
+║   🩸 BloodLink Backend API                   ║
+║   Port     : 5000                             ║
+║   Env      : development                   ║
+║   DB       : Connected                       ║
+║   Sockets  : Active                          ║
+╚══════════════════════════════════════════════╝
+    
+2026-05-09 17:30:56 [warn]: MongoDB disconnected. Attempting reconnect...
