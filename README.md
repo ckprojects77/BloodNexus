@@ -186,7 +186,7 @@ Supports:
 ## 👨‍💻 Author
 
 **Chaitanya**
-- GitHub: [@YOUR_USERNAME](https://github.com/ckprojects77)
+- GitHub: [@ckprojects77](https://github.com/ckprojects77)
 
 ---
 
